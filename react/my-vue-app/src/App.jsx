@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Todo from './Todo'
 
 function App() {
   
@@ -10,13 +11,15 @@ function App() {
     < >
      
       <h1>Vite + React</h1>
-      <Device name="latop" price="23"></Device>
+      <Todo task="learning react" isDone="false"></Todo>
+      <Todo task="learning react concept" isDone="true"></Todo>
+      {/* <Device name="latop" price="23"></Device>
       <Device name="mobile" price="20"></Device>
       <Person></Person>
       <Student></Student>
       <Student grade="7" score="99"></Student>
       <Student></Student>
-      < Devoloper></Devoloper>
+      < Devoloper></Devoloper> */}
     
      
     </>
